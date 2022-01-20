@@ -9,7 +9,7 @@ We have two product types `Car` and `Truck`, each with a service to provide a ga
 
 A client can issue a query to select from the product details service a gallery of an unknown product, but so long as the returned type implements the Gallery interface it can handle the response.
 
-We can image adding `Motorbike` and `Scooter` services, updating product details service to return them, and without any client change be able to show new products to users whilst maintaining separation of concerns in our GraphQL services. 
+We can imagine adding `Motorbike` and `Scooter` services, updating product details service to return them, and without any client change be able to show new products to users whilst maintaining separation of concerns in our GraphQL services. 
 
 ```graphql
 {
